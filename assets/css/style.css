@@ -1,0 +1,161 @@
+html {
+    height: 100%
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/interlaced.png");
+}
+header {
+    border-bottom: 2px solid #cccccc; 
+    background-color: #ffffff;
+
+}
+h1 {
+    margin: 0; 
+    background-color: #4aaaa5;
+    padding: 26px;
+    text-align: center;
+    color: #ffffff;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: right;
+    margin: 26px 26px 0 0;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+    padding: 0 6px 0 6px;
+}
+
+#linkborder {
+    border-right: 1px solid #cccccc;
+
+}
+section {
+    padding: 50px;
+    margin-top: 26px; 
+   
+
+}
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: 3px solid #cccccc;
+    padding: 16px;
+    margin: 0 16px 0 16px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin: 16px;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    display: block;
+    width: 864px;
+    margin: 16px;
+
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    display: block;
+    width: 864px;
+    margin: 16px;
+}
+
+.submit { 
+    width: 80px;
+    background-color: #4aaaa5;
+    padding: 8px;
+    color: #ffffff
+    
+
+}
+
+
+.contentarea {
+    width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border: 1px solid #cccccc;
+
+}
+.profileimage {
+    float: left;
+    width: 200px;
+    margin: 16px;
+}
+
+.gallery {
+    width: 200px;
+    margin: 16px;
+}
+.imgcontainer {
+    position: relative;
+    float: left;
+}
+
+.text-block {
+    position: absolute;
+    left: auto;
+    bottom: 16px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 200px;
+    margin: 16px;
+    padding: 10px 0 10px 0;
+
+}
+
+.headercontainer {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    padding: 0;
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.push {
+    height: 50px;
+}
+
+.footer {
+    height: 50px;
+    background-color: #777777;
+    border-top: 8px solid #4aaaa5;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+@media screen and (max-width: 640px) {
+
+}
